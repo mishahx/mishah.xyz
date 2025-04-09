@@ -8,7 +8,7 @@ This is my the portfolio website. You can reach me on below contact info.
 
 ## Building
 
-**Pipeline**: <https://github.com/mishahx/mishah.xyz/actions/new>
+**Pipeline**: <https://github.com/mishahx/mishah.xyz/actions>
 
 ### Targets
 
