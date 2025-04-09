@@ -1,14 +1,14 @@
-# mishahx
+# mishahx.in
 
-![](https://github.com/mishahx/mishahx.xyz/workflows/website-ci/badge.svg)
+![](https://github.com/mishahx/mishah.xyz/workflows/website-ci/badge.svg)
 
-👋 Welcome to **mishahx** — a quiet forge of ideas, experiments, and engineering craftsmanship.
+👋 Welcome to **mishahx.xyz** — a quiet forge of ideas, experiments, and engineering craftsmanship.
 
 This is my the portfolio website. You can reach me on below contact info.
 
 ## Building
 
-**Pipeline**: <https://github.com/mishahx/mishahx.xyz/actions/new>
+**Pipeline**: <https://github.com/mishahx/mishah.xyz/actions/new>
 
 ### Targets
 
