@@ -1,134 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Mishal Shah - Terminal Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-          background-color: #0f1117;
-          color: #00ffae;
-          font-family: 'Courier New', monospace;
-          padding: 2rem;
-        }
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mishal Shah - Terminal Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0f1117;
+      color: #00ffae;
+      font-family: 'Courier New', monospace;
+      padding: 2rem;
+    }
 
-        .terminal-box {
-          border: 2px solid #00ffae;
-          border-radius: 0.75rem;
-          padding: 1.5rem;
-          margin-bottom: 2rem;
-          background-color: #0a0d13;
-          animation: fadeIn 0.8s ease-in;
-        }
+    .terminal-box {
+      border: 2px solid #00ffae;
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      background-color: #0a0d13;
+      animation: fadeIn 0.8s ease-in;
+    }
 
-        .terminal-header {
-          color: #44ffdd;
-          font-weight: bold;
-          margin-bottom: 1rem;
-        }
+    .terminal-header {
+      color: #44ffdd;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
 
-        .typing {
-          overflow: hidden;
-          white-space: nowrap;
-          border-right: 2px solid #00ffae;
-          animation: typing 2.5s steps(40, end), blink 0.75s step-end infinite;
-        }
+    .typing {
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 2px solid #00ffae;
+      animation: typing 2.5s steps(40, end), blink 0.75s step-end infinite;
+    }
 
-        @keyframes typing {
-          from { width: 0; }
-          to { width: 100%; }
-        }
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
 
-        @keyframes blink {
-          50% { border-color: transparent; }
-        }
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
 
-        @keyframes fadeIn {
-          from { opacity: 0; transform: translateY(20px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
 
-        .highlight {
-          color: #ffdd57;
-        }
+    .highlight {
+      color: #ffdd57;
+    }
 
-        .section-title {
-          color: #00ffae;
-          font-size: 1.25rem;
-          font-weight: bold;
-          margin-bottom: 0.75rem;
-        }
+    .section-title {
+      color: #00ffae;
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin-bottom: 0.75rem;
+    }
 
-        a {
-          color: #00ffae;
-          text-decoration: none;
-        }
-        a:hover {
-          text-decoration: underline;
-        }
-    </style>
+    a {
+      color: #00ffae;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
 
 <!-- Contact on Top -->
-<div class="terminal-box">
-    <div class="terminal-header">~ $ whoami</div>
-    <h1 class="typing">Mishal Shah - SRE & DevOps Engineer</h1>
+<div class="terminal-box container py-5">
+  <div class="terminal-header">~ $ whoami</div>
+  <h1 class="typing">Mishal Shah - SRE & DevOps Engineer</h1>
 </div>
 
-<div class="terminal-box">
-    <div class="terminal-header">~ $ skills --list</div>
-    <p><span class="highlight">Cloud:</span> AWS, Azure, GCP</p>
-    <p><span class="highlight">IaC:</span> Terraform, Ansible, Packer, Helm</p>
-    <p><span class="highlight">CI/CD:</span> Jenkins, GitHub Actions, CircleCI</p>
-    <p><span class="highlight">Monitoring:</span> Prometheus, Grafana, CloudWatch, ELK</p>
-    <p><span class="highlight">Langs:</span> Python, Bash, Java, Node.js</p>
+<div class="terminal-box container py-5">
+  <div class="terminal-header">~ $ skills --list</div>
+  <p><span class="highlight">Cloud:</span> AWS, Azure, GCP</p>
+  <p><span class="highlight">IaC:</span> Terraform, Ansible, Packer, Helm</p>
+  <p><span class="highlight">CI/CD:</span> Jenkins, GitHub Actions, CircleCI</p>
+  <p><span class="highlight">Monitoring:</span> Prometheus, Grafana, CloudWatch, ELK</p>
+  <p><span class="highlight">Langs:</span> Python, Bash, Java, Node.js</p>
 </div>
 
-<div class="terminal-box">
-    <div class="terminal-header">~ $ experience --timeline</div>
+<div class="terminal-box container py-5">
+  <div class="terminal-header">~ $ experience --timeline</div>
 
-    <div>
-        <div class="section-title">🔹 Astronomer.io</div>
-        <p>SRE Lead | Mar 2022 – Present</p>
-        <ul>
-            <li>Automated multi-config Helm deployments</li>
-            <li>Optimized CI workflows (-20% build time)</li>
-            <li>Managed GCP + Istio upgrades via Terraform</li>
-        </ul>
-    </div>
+  <div>
+    <div class="section-title">🔹 Astronomer.io</div>
+    <p>SRE Lead | Mar 2022 – Present</p>
+    <ul>
+      <li>Automated multi-config Helm deployments</li>
+      <li>Optimized CI workflows (-20% build time)</li>
+      <li>Managed GCP + Istio upgrades via Terraform</li>
+    </ul>
+  </div>
 
-    <div>
-        <div class="section-title mt-3">🔹 Asper AI</div>
-        <p>Principal DevOps | Oct 2020 – Feb 2022</p>
-        <ul>
-            <li>Achieved 99.99% uptime for DynamicDemand SaaS</li>
-            <li>↓50% infra cost using serverless stack</li>
-            <li>Terraform-first infra across AWS & Azure</li>
-        </ul>
-    </div>
+  <div>
+    <div class="section-title mt-3">🔹 Asper AI</div>
+    <p>Principal DevOps | Oct 2020 – Feb 2022</p>
+    <ul>
+      <li>Achieved 99.99% uptime for DynamicDemand SaaS</li>
+      <li>↓50% infra cost using serverless stack</li>
+      <li>Terraform-first infra across AWS & Azure</li>
+    </ul>
+  </div>
 
-    <div>
-        <div class="section-title mt-3">🔹 Groupon, Zeta, Sophos, Quantiphi, Softvan</div>
-        <p>Various DevOps Roles | 2014 – 2020</p>
-        <ul>
-            <li>Managed CI/CD and cloud automation across environments</li>
-            <li>Built monitoring, alerting, and deployment platforms</li>
-        </ul>
-    </div>
+  <div>
+    <div class="section-title mt-3">🔹 Groupon, Zeta, Sophos, Quantiphi, Softvan</div>
+    <p>Various DevOps Roles | 2014 – 2020</p>
+    <ul>
+      <li>Managed CI/CD and cloud automation across environments</li>
+      <li>Built monitoring, alerting, and deployment platforms</li>
+    </ul>
+  </div>
 </div>
 
-<div class="terminal-box">
-    <div class="terminal-header">~ $ education</div>
-    <p>B.E. Computer Engineering — Gujarat Technological University (2010–2014)</p>
+<div class="terminal-box container py-5">
+  <div class="terminal-header">~ $ education</div>
+  <p>B.E. Computer Engineering — Gujarat Technological University (2010–2014)</p>
 </div>
 
-<div class="terminal-box">
-    <div class="terminal-header">~ $ contact</div>
-    <p>📧 <a href="mailto:mishalshah92@gmail.com">mishalshah92@gmail.com</a></p>
-    <p>💻 <a href="https://github.com/mishah334" target="_blank">github.com/mishah334</a></p>
-    <p>🔗 <a href="https://www.linkedin.com/in/mishalshah92/" target="_blank">linkedin.com/in/mishalshah92</a></p>
+<div class="terminal-box container py-5">
+  <div class="terminal-header">~ $ contact</div>
+  <p>📧 <a href="mailto:mishalshah92@gmail.com">mishalshah92@gmail.com</a></p>
+  <p>💻 <a href="https://github.com/mishalshah92" target="_blank">github.com/mishalshah92</a></p>
+  <p>🔗 <a href="https://www.linkedin.com/in/mishalshah92/" target="_blank">linkedin.com/in/mishalshah92</a></p>
 </div>
 
 </body>
