@@ -1,76 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>Mishal Shah - SRE Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
       background-color: #f7f9fc;
-      font-family: 'Inter', sans-serif;
       color: #1f2937;
+      font-family: 'Inter', sans-serif;
     }
-    .primary-text { color: #0a192f; }
-    .accent { color: #00bcd4; }
-    .card { border-radius: 1rem; }
-    .icon-box { width: 1.5rem; height: 1.5rem; margin-right: 0.5rem; }
+    .text-primary-custom { color: #0a192f; }
+    .bg-card { background-color: #ffffff; border-radius: 1rem; }
+    .timeline { border-left: 3px solid #00bcd4; padding-left: 1rem; }
+    .badge-info { background-color: #00bcd4; }
   </style>
 </head>
 <body>
 
-  <div class="container py-5">
-    <!-- Header -->
-    <header class="text-center mb-5">
-      <h1 class="display-4 fw-bold primary-text">Mishal Shah</h1>
-      <p class="fs-5 text-muted">Site Reliability Engineer | DevOps Architect | Automation Enthusiast</p>
-      <div class="d-flex justify-content-center gap-3 mt-3">
-        <a href="https://github.com/mishalshah92" target="_blank" class="btn btn-outline-info">GitHub</a>
-        <a href="mailto:mishalshah92@gmail.com" class="btn btn-outline-info">Contact</a>
-      </div>
-    </header>
-
-    <!-- About -->
-    <div class="card shadow-sm mb-4">
-      <div class="card-body">
-        <h5 class="card-title fw-semibold d-flex align-items-center">
-          <span class="icon-box text-info">🔐</span> About Me
-        </h5>
-        <p class="card-text text-secondary">
-          I'm a Site Reliability Engineer with 10+ years of experience building and scaling systems. My passion lies in automation, observability, and creating self-healing infrastructure. I strive to build systems that work even when everything else fails.
-        </p>
-      </div>
+<div class="container py-5">
+  <!-- Header -->
+  <header class="text-center mb-5">
+    <h1 class="display-4 fw-bold text-primary-custom">Mishal Shah</h1>
+    <p class="fs-5 text-muted">Senior Software Engineer - SRE | DevOps Specialist | Cloud Native Advocate</p>
+    <div class="d-flex justify-content-center gap-3 mt-3">
+      <a href="https://github.com/mishah334" target="_blank" class="btn btn-outline-info">GitHub</a>
+      <a href="mailto:mishalshah92@gmail.com" class="btn btn-outline-info">Email</a>
     </div>
+  </header>
 
-    <!-- SRE Focus -->
-    <div class="card shadow-sm mb-4">
-      <div class="card-body">
-        <h5 class="card-title fw-semibold d-flex align-items-center">
-          <span class="icon-box text-info">💻</span> SRE & DevOps Focus
-        </h5>
-        <ul class="text-secondary mb-0">
-          <li>Designing reliable, scalable cloud-native architectures</li>
-          <li>Implementing CI/CD pipelines and release automation</li>
-          <li>System monitoring, alerting, and incident response</li>
-          <li>Infrastructure as Code (Terraform, Pulumi)</li>
-          <li>SLIs/SLOs and error budgets</li>
+  <!-- Work Experience Timeline -->
+  <div class="bg-card shadow-sm p-4 mb-4">
+    <h5 class="fw-semibold text-primary-custom mb-4">Work Experience</h5>
+    <div class="timeline">
+      <div class="mb-4">
+        <h6 class="fw-bold text-primary-custom">Principal DevOps Engineer <span class="badge bg-info">Asper AI</span></h6>
+        <p class="fst-italic small mb-1">Oct 2020 – Feb 2022</p>
+        <ul class="mb-0 text-secondary">
+          <li>Led DevOps for SaaS product with 99.99% uptime on AWS & Azure.</li>
+          <li>Reduced infra cost by 50%, deploy speed ↑ by 40% via serverless.</li>
+          <li>Terraform-based SOC2-compliant infra for 500+ resources.</li>
+          <li>Managed ELK/Grafana/CloudWatch monitoring stack.</li>
         </ul>
       </div>
-    </div>
 
-    <!-- Collaboration -->
-    <div class="card shadow-sm mb-4">
-      <div class="card-body">
-        <h5 class="card-title fw-semibold d-flex align-items-center">
-          <span class="icon-box text-info">🤝</span> Let’s Collaborate
-        </h5>
-        <p class="card-text text-secondary">
-          If you're solving for reliability at scale, improving platform uptime, or automating operations, I'm always happy to connect. Let's build better systems together.
-        </p>
+      <div class="mb-4">
+        <h6 class="fw-bold text-primary-custom">Senior Software Engineer - SRE <span class="badge bg-info">Astronomer.io</span></h6>
+        <p class="fst-italic small mb-1">Mar 2022 – Present</p>
+        <ul class="mb-0 text-secondary">
+          <li>Automated Helm deployments, Istio config upgrades on GCP.</li>
+          <li>Cut CircleCI build times by 20% through optimization.</li>
+          <li>Built vulnerability scanner using Lambda + DynamoDB.</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h6 class="fw-bold text-primary-custom">Senior DevOps Engineer <span class="badge bg-info">Zeta India</span></h6>
+        <p class="fst-italic small mb-1">Jul 2020 – Oct 2020</p>
+        <ul class="mb-0 text-secondary">
+          <li>Managed Kubernetes CI/CD and monitoring pipelines.</li>
+          <li>Mentored team in incident handling and tool design.</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h6 class="fw-bold text-primary-custom">Software Engineer II - DevOps <span class="badge bg-info">Groupon</span></h6>
+        <p class="fst-italic small mb-1">Jun 2019 – Jul 2020</p>
+        <ul class="mb-0 text-secondary">
+          <li>CI/CD infrastructure for 500+ microservices (Jenkins).</li>
+          <li>Wavefront + Filebeat + Telegraf for metrics/logs.</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h6 class="fw-bold text-primary-custom">Software Engineer II - DevOps <span class="badge bg-info">Sophos</span></h6>
+        <p class="fst-italic small mb-1">Feb 2018 – May 2019</p>
+        <ul class="mb-0 text-secondary">
+          <li>Automated test suite for Email Security products.</li>
+          <li>Grafana dashboards and issue response systems.</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h6 class="fw-bold text-primary-custom">DevOps Engineer <span class="badge bg-info">Quantiphi</span></h6>
+        <p class="fst-italic small mb-1">May 2017 – Dec 2017</p>
+        <ul class="mb-0 text-secondary">
+          <li>Provisioned GCP/AWS infra for 200+ team users.</li>
+          <li>Created automation scripts for cost reporting.</li>
+        </ul>
+      </div>
+
+      <div class="mb-2">
+        <h6 class="fw-bold text-primary-custom">Software Engineer <span class="badge bg-info">Softvan</span></h6>
+        <p class="fst-italic small mb-1">Sep 2014 – Apr 2017</p>
+        <ul class="mb-0 text-secondary">
+          <li>Cloud-native data pipelines on AWS (Lambda, Redshift, RDS).</li>
+          <li>Built serverless video encoding platform for enterprise use.</li>
+        </ul>
       </div>
     </div>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Education -->
+  <div class="bg-card shadow-sm p-4 mb-4">
+    <h5 class="fw-semibold text-primary-custom mb-3">Education</h5>
+    <p class="text-secondary mb-0"><strong>B.E. Computer Engineering</strong> — Gujarat Technological University (2010–2014)</p>
+  </div>
+
+  <!-- Let's Collaborate -->
+  <div class="bg-card shadow-sm p-4">
+    <h5 class="fw-semibold text-primary-custom mb-3">Let’s Collaborate</h5>
+    <p class="text-secondary mb-0">
+      Interested in scaling infrastructure, automating platforms, or building resilient DevOps workflows? Let’s connect and build something meaningful.
+    </p>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
